@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        TheDAO
+        MacroSoft
       </a>
       <button
         className="hamburger"
@@ -42,13 +42,13 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="each-link" href="/about">
-              About
+            <a className="each-link" href="/projects">
+              Projects
             </a>
           </li>
           <li>
-            <a className="each-link" href="/contact">
-              Contact
+            <a className="each-link apply" href="/apply">
+              Apply
             </a>
           </li>
         </ul>
