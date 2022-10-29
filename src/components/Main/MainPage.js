@@ -12,10 +12,7 @@ const MainPage = () => {
       <About />
       <DAO />
       <Whyus />
-      
       <Footer />
-
-      
     </React.Fragment>
   );
 };
