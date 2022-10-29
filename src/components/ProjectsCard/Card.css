@@ -1,0 +1,90 @@
+.card-main{
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 45%;
+  margin: 16px;
+  float: left;
+  height:200px;
+}
+.card{
+    display: flex;
+}
+.card-main:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+img{
+    height: auto;
+    width: 35%;
+    
+}
+.card-image{
+    width: 40%;
+}
+.haveweb{
+    flex-shrink: 1;
+    display:inline-block;
+    padding: 0;
+    height: 30%;
+    width: 30%;
+    width: auto;
+    border:1px solid red; display:inline-block; line-height:0;
+}
+.haveweb img{
+    height: 38%;
+    width: 38%;
+}
+
+.card-content{
+    padding-left: 2rem;
+    width: 60%;
+}
+.card-title{
+    color: #283b8b;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    height: 20%;
+}
+.card-description{
+    height: 55%;
+}
+.card-text{
+    color: #283b8b;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 1.5rem;
+}
+.card-links{
+    float: right;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.card-links img{
+    height: auto;
+    width: 5vh;
+    margin: 0.5rem;
+}
+.post{
+    height: 10%;
+    margin: auto;
+    background-color: #283b8b;
+    color: white;
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+
+}
+.post:hover {
+    background-color: #2642af;
+}
+
+
+

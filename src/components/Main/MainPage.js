@@ -1,17 +1,18 @@
 import React from "react";
 import "./MainPage.css";
-import DAO from "./DAO/DAO.js";
-import About from "./About/About.js";
-import Whyus from "./Whyus/Whyus.js";
-import Footer from "./Footer/Footer";
+import cone from "../../assets/cone.png";
 
 const MainPage = () => {
   return (
     <React.Fragment>
-      <About></About>
-      <DAO></DAO>
-      <Whyus></Whyus>
-      <Footer></Footer>
+      <img
+        src={cone}
+        alt="the image of cone"
+        width="600"
+        height="600"
+        className="main-image"
+      />
+      
     </React.Fragment>
   );
 };
