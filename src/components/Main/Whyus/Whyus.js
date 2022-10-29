@@ -1,13 +1,15 @@
 import React from "react";
-import "./DAO.css";
-import img from "../../../assets/DAOImage.png";
+import "./Whyus.css";
+import img from "../../../assets/whyus.png";
 
-const DAO = (props) => {
+const Whyus = () => {
   return (
     <React.Fragment>
       <div className="main-div">
+        <div className="img-div">
+          <img className="img-class" src={img}></img>
+        </div>
         <div className="text-div">
-          <h2>This is heading.</h2>
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
@@ -21,23 +23,9 @@ const DAO = (props) => {
             and the like)
           </p>
         </div>
-        <div className="img-div">
-          <img className="img-class" src={img} alt="This is the img of PI" />
-          <p>
-            Source of the image:
-            <a
-              href="https://ethereum.org/en/dao/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              click here.
-            </a>
-          </p>
-        </div>
       </div>
     </React.Fragment>
   );
 };
 
-export default DAO;
+export default Whyus;
