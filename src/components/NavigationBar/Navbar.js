@@ -29,6 +29,7 @@ const Navbar = () => {
           />
         </svg>
       </button>
+
       <div
         className={
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
@@ -36,13 +37,19 @@ const Navbar = () => {
       >
         <ul>
           <li>
-            <a href="/home">Home</a>
+            <a className="each-link" href="/home">
+              Home
+            </a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a className="each-link" href="/about">
+              About
+            </a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a className="each-link" href="/contact">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
