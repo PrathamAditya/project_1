@@ -1,10 +1,18 @@
 import React from "react";
-import Navigation from "./components/NavigationBar/Navigation";
+import "./styles.css";
+import Navbar from "./components/NavigationBar/Navbar";
 
 function App() {
   return (
     <React.Fragment>
-      <Navigation></Navigation>
+      <Navbar />
+      <div className="container">
+        <article>
+          <h1>What is Lorem Ipsum? </h1>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry...
+        </article>
+      </div>
     </React.Fragment>
   );
 }
