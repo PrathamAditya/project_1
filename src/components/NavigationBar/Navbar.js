@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        MacroSoft
+        TheDAO
       </a>
       <button
         className="hamburger"

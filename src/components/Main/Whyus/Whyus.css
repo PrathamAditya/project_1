@@ -5,7 +5,7 @@
 .img-div {
     width: 50%;
     align-items: center;
-    justify-content: center;
+    padding-left: 8vw;
 }
 
 .img-class {
