@@ -1,6 +1,5 @@
 import React from "react";
 import "./MainPage.css";
-import cone from "../../assets/cone.png";
 import About from "./About/About";
 import DAO from "./DAO/DAO";
 import Footer from "./Footer/Footer";
