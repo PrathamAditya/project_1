@@ -2,7 +2,7 @@
     align-items: center;
     justify-content: center;
     background: #fff;
-  border-radius: 7px;
+  border-radius: 5%;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
   width: 45%;
@@ -19,6 +19,7 @@
 img{
     height: auto;
     width: 35%;
+    border-radius: 5%;
     
 }
 .card-image{
@@ -82,8 +83,24 @@ img{
     transition: background-color 0.2s ease-in-out;
 
 }
+a{
+    text-decoration: none;
+    color: #283b8b;
+}
 .post:hover {
     background-color: #2642af;
+}
+.timer{
+    margin:7%;
+}
+.disabled{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    pointer-events: none;
+    cursor: default;
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
 }
 
 

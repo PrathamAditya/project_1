@@ -4,19 +4,20 @@ import twitter from "../../assets/twitter.png";
 import discord from "../../assets/discord.png";
 import website from "../../assets/website.png";
 import Countdown from 'react-countdown';
+import {useState} from 'react';
 
-// Time remaining in UTC
-const renderer = ({ days, hours, minutes, seconds, completed }) => {
-    if (completed) {
-        // Render a completed state
-        return <span>Ended!</span>;
-    } else {
-        // Render a countdown
-        return <span>{days}d {hours}h {minutes}m {seconds}s</span>;
-    }
-};
+
+const timeRemaining = (time) => {
+    var date = new Date(time);
+    return date.toString();
+}
 
 const Card = (props) => {
+    const [isActive, setIsActive] = useState(true);
+    const Completionist = () => {
+        setIsActive(current => !current);
+    
+    }
     var des = (props.description).slice(0, 100);
     if (props.description.length > 100) {
         des += "...";
@@ -30,10 +31,13 @@ const Card = (props) => {
                         <h3 className="card-title">{props.title}</h3>
                         <p className="card-description">{des}</p>
                         <div className="info">
-                            <a className="post" href={props.post} target="_blank" rel="noreferrer">Participate</a>
-                            <Countdown date={ Date.now(props.time)}/>
+                            <a className={isActive? null: "disabled"} class="post" href={props.post} target="_blank" rel="noreferrer">{isActive? "Participate":"Ended"}</a>
+
+                            <Countdown className="timer" date={timeRemaining(props.time)}>
+                                <Completionist />
+                            </Countdown>
                             {console.log(props.time)}
-                            {console.log(Date.now())}
+                            {console.log(Date.now(props.time))}
                         </div>
                     </div>
                     <div className="card-links">
