@@ -13,7 +13,7 @@ const Projects = () => {
             twitter="https://twitter.com/ABC"
             discord="none"
             website="none"
-            time=""
+            time="10/31/2022 10:00:00 AM UTC"
         />
                 <Card 
             title="Sweet Cone"
@@ -22,8 +22,9 @@ const Projects = () => {
             twitter="https://twitter.com/sweetconenft"
             discord="https://discord.gg/sweetcone"
             website="https://sweetcone.art/"
-            time=""
+            time="11/1/2022 10:00:00 AM UTC"
         />
+        
         </div>
         
     );

@@ -3,6 +3,18 @@ import React from "react";
 import twitter from "../../assets/twitter.png";
 import discord from "../../assets/discord.png";
 import website from "../../assets/website.png";
+import Countdown from 'react-countdown';
+
+// Time remaining in UTC
+const renderer = ({ days, hours, minutes, seconds, completed }) => {
+    if (completed) {
+        // Render a completed state
+        return <span>Ended!</span>;
+    } else {
+        // Render a countdown
+        return <span>{days}d {hours}h {minutes}m {seconds}s</span>;
+    }
+};
 
 const Card = (props) => {
     var des = (props.description).slice(0, 100);
@@ -17,7 +29,12 @@ const Card = (props) => {
                     <div className="card-content">
                         <h3 className="card-title">{props.title}</h3>
                         <p className="card-description">{des}</p>
-                        <a className="post" href={props.post} target="_blank" rel="noreferrer">Participate</a>
+                        <div className="info">
+                            <a className="post" href={props.post} target="_blank" rel="noreferrer">Participate</a>
+                            <Countdown date={ Date.now(props.time)}/>
+                            {console.log(props.time)}
+                            {console.log(Date.now())}
+                        </div>
                     </div>
                     <div className="card-links">
                         {
@@ -47,7 +64,7 @@ const Card = (props) => {
                     </div>
 
                 </div>
-                
+
             </div>
         </React.Fragment>
 
