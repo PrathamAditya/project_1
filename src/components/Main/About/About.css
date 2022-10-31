@@ -7,24 +7,24 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 5vh;
+    padding-bottom: 12.5vh;
 }
 
 .eye-top {
     position: relative;
-    height: 120px;
-    width: 120px;
+    height: 15vh;
+    width: 15vh;
 }
 
 .left {
-    top: -200px;
-    left: 525px;
+    top: -30vh;
+    left: 75vh;
 }
 
 .right {
-    top: -200px;
-    left: 750px;
+    top: -30vh;
+    left: 108.5vh;
 }
 
 .about-text {
