@@ -1,5 +1,4 @@
 import "./Projects.css";
-// import "../ProjectsCard/Card.css";
 import React from "react";
 import Card from "../ProjectsCard/Card.js";
 import cone from "../../assets/cone.png";
@@ -30,6 +29,7 @@ const Projects = () => {
             post=""
             time="11/1/2022 10:00:00 AM UTC"
         />
+        
         
         </div>
         

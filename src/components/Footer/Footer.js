@@ -1,5 +1,5 @@
 import "./Footer.css";
-import favicon from "../../../assets/favicon.png";
+import favicon from "./../../assets/favicon.png";
 
 const Footer = () => {
   const today = new Date();

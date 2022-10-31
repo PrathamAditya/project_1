@@ -1,5 +1,4 @@
 import "./ApplyPage.css";
-
 const ApplyPage = () => {
   return (
     <div class="apply-box">

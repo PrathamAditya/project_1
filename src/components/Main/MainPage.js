@@ -2,7 +2,6 @@ import React from "react";
 import "./MainPage.css";
 import About from "./About/About";
 import DAO from "./DAO/DAO";
-import Footer from "./Footer/Footer";
 import Whyus from "./Whyus/Whyus";
 
 const MainPage = () => {
@@ -11,7 +10,6 @@ const MainPage = () => {
       <About />
       <DAO />
       <Whyus />
-      <Footer />
     </React.Fragment>
   );
 };
