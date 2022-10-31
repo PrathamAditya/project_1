@@ -1,8 +1,9 @@
 // Navbar.js
 import "./Navbar.css";
-import { useState } from "react";
+import ReactDOM from "react-dom";
+import React, { useState } from "react";
 
-const Navbar = () => {
+const NavbarRoot = (props) => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <nav className="navigation">
@@ -54,6 +55,17 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
+  );
+};
+
+const Navbar = () => {
+  return (
+    <React.Fragment>
+      {ReactDOM.createPortal(
+        <NavbarRoot />,
+        document.getElementById("navbar-root")
+      )}
+    </React.Fragment>
   );
 };
 

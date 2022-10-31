@@ -10,11 +10,13 @@ body {
 }
 
 .apply-box {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
-    width: 70vh;
-    padding: 7vh;
+    width: 35vw;
+    padding-bottom: 15vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
     transform: translate(-50%, -50%);
     background: #28282B;
     box-sizing: border-box;
