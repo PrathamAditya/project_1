@@ -5,7 +5,6 @@ import eyetop from "../../../assets/eyetop.png";
 import { useEffect, useState } from "react";
 
 const eyes = document.querySelectorAll(".eye-top");
-const anchor = docu;
 function MousePosition() {
   const [mousePos, setMousePos] = useState({});
 
@@ -27,10 +26,12 @@ function MousePosition() {
 const About = () => {
   return (
     <React.Fragment>
-      <img src={eyebase} alt="eye-base" className="eye-base" />
-      <img src={eyetop} alt="eye-top-left" className="eye-top left" />
-      <img src={eyetop} alt="eye-top-right" className="eye-top right" />
-      <h2 className="about-text">This is about us on main page.</h2>
+      <div className="main-eye-class">
+        <img src={eyebase} alt="eye-base" className="eye-base" />
+        <img src={eyetop} alt="eye-top-left" className="eye-top left" />
+        <img src={eyetop} alt="eye-top-right" className="eye-top right" />
+        <h2 className="about-text">This is about us on main page.</h2>
+      </div>
     </React.Fragment>
   );
 };
