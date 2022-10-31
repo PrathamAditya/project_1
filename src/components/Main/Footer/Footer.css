@@ -1,0 +1,16 @@
+.main-class {
+
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 4vh;
+}
+
+.sub-class {
+    font-size: 2.5vh;
+}
+
+.favicon {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,13 @@
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 30%;
+    padding: 10vh;
+}
+
+.about-text {
+    text-align: center;
+    padding: 2px
+}

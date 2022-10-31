@@ -1,0 +1,15 @@
+.main-div {
+    display: flex;
+}
+
+.img-div {
+    width: 50%;
+    align-items: center;
+    padding-left: 8vw;
+}
+
+.img-class {
+
+    height: 80vh;
+    width: 70vh;
+}
