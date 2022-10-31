@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DK Lemon Yellow Sun', sans-serif;
+    background: #FDFBF9;
+}
+
+.apply-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 70vh;
+    padding: 7vh;
+    transform: translate(-50%, -50%);
+    background: #28282B;
+    box-sizing: border-box;
+    box-shadow: 0 5px 8px #28282B;
+    border-radius: 10px;
+}
+
+.apply-box h2 {
+    margin: 0 0 3vh;
+    padding: 0;
+    color: #FDFBF9;
+    text-align: center;
+    font-size: 8vh;
+}
+
+.apply-box .user-box {
+    position: relative;
+}
+
+.apply-box .user-box input {
+    width: 100%;
+    padding: 2vh 0;
+    font-size: 16px;
+    color: #FDFBF9;
+    margin-bottom: 4vh;
+    border: none;
+    border-bottom: 1px solid #FDFBF9;
+    outline: none;
+    background: transparent;
+}
+
+.apply-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2vh 0;
+    font-size: ;
+    color: #FDFBF9;
+}
+
+.apply-box .user-box input:focus~label,
+.apply-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #FDFBF9;
+    font-size: 12px;
+}
+
+.apply-box form a {
+    position: center;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FDFBF9;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
