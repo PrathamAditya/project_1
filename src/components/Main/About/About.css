@@ -1,13 +1,28 @@
-.main-image {
+.eye-base {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 30%;
-    width: 30%;
-    padding: 10vh;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.eye-top {
+    position: relative;
+    height: 120px;
+    width: 120px;
+}
+
+.left {
+    top: -200px;
+    left: 525px;
+}
+
+.right {
+    top: -200px;
+    left: 750px;
 }
 
 .about-text {
     text-align: center;
-    padding: 2px
+    padding: 2px;
 }
