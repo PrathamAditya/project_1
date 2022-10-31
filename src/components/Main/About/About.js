@@ -32,6 +32,7 @@ const About = () => {
         <img src={eyetop} alt="eye-top-right" className="eye-top right" />
         <h2 className="about-text">This is about us on main page.</h2>
       </div>
+      
     </React.Fragment>
   );
 };
