@@ -38,11 +38,6 @@ const NavbarRoot = (props) => {
       >
         <ul>
           <li>
-            <a className="each-link" href="/home">
-              Home
-            </a>
-          </li>
-          <li>
             <a className="each-link" href="/projects">
               Projects
             </a>

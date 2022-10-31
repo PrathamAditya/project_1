@@ -8,16 +8,13 @@ body {
     font-family: 'DK Lemon Yellow Sun', sans-serif;
     background: #FDFBF9;
 }
-
+label{
+    font-size: 2vh;
+}
 .apply-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     width: 35vw;
-    padding-bottom: 15vh;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-    transform: translate(-50%, -50%);
+    padding: 7vh;
+    margin: 10vh auto;
     background: #28282B;
     box-sizing: border-box;
     box-shadow: 0 5px 8px #28282B;
@@ -53,7 +50,6 @@ body {
     top: 0;
     left: 0;
     padding: 2vh 0;
-    font-size: ;
     color: #FDFBF9;
 }
 
@@ -62,7 +58,7 @@ body {
     top: -20px;
     left: 0;
     color: #FDFBF9;
-    font-size: 12px;
+    /* font-size: 12px; */
 }
 
 .apply-box form a {
